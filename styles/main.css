@@ -160,10 +160,10 @@ h1.new-header {
   color: #202A7F;
 }
 .container h5  {
-  color: #202A7F;
+  color: #FFCC00;
 }
-.container h6  {
-  color: #202A7F;
+.container h6 {
+    color: #FFCC00;
 }
 .container-fluid h1 {
   color: #FFCC00;
