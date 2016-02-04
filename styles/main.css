@@ -73,11 +73,15 @@ ul.social-nav {
 .col-md-4.footer-box.center {
     text-align: center;
   }
-  .col-xs-4.center {
+.col-xs-4.center {
     text-align: center;
 }
+.row.footer {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
 .col-md-6.col-xs-6.contact-left {
-  background: #FFCC00;
+  background-color: #FFCC00;
   padding: 8%;
   text-align: center;
   font-size: 5em;
@@ -95,10 +99,9 @@ ul.social-nav {
 i.fa.fa-envelope.blue {
     color: #17176E;
 }
-
-
-
-
+i.fa.fa-envelope.blue:hover {
+    color: white;
+}
 div.row.home {
   height: 850px;
   text-align: center;
