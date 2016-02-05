@@ -476,6 +476,9 @@ div.row.home {
 span.glyphicon.glyphicon-upload {
     display: none;
 }
+.col-xs-6.footer-box {
+    width: 100%;
+}
 
 }
 @media (max-width: 768px) {
