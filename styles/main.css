@@ -449,7 +449,7 @@ img.slider-image {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .container {
     max-width: 90%;
   }
