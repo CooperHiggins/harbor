@@ -118,14 +118,18 @@ div.row.home {
     background-color: white;
     /* padding: 30px; */
 }
-.row.image-banner {
-    padding: 30px;
-}
+
 .image-container {
     padding: 30px;
     /* border: solid 1px blue; */
 }
-
+.image-banner {
+    padding: 30px;
+}
+img.img-responsive.donate {
+    height: 200px;
+    margin: auto;
+}
 
 .container-fluid {
   background-color: #202A7F;
@@ -140,9 +144,18 @@ div.row.home {
 .container-fluid.white {
     background-color: white;
 }
+.container-fluid.grey {
+    background: gainsboro;
+}
 
 h1.blue {
-    color: blue;
+    color: #202A7F;
+}
+h1.yellow {
+    color: #FFCC00;
+}
+h1.black {
+    color: black;
 }
 h1.new-header {
     padding: 20px;
@@ -168,9 +181,7 @@ h1.new-header {
 .container h6 {
     color: #FFCC00;
 }
-.container-fluid h1 {
-  color: #FFCC00;
-}
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -299,7 +310,7 @@ img.slider-image {
 /* keyframes #anim_slides */
 @-webkit-keyframes anim_slides {
     0% {
-        opacity:0;
+        opacity:1;
     }
     6% {
         opacity:1;
@@ -368,7 +379,7 @@ img.slider-image {
     -moz-animation-delay: 12.0s;
 }
 .slides ul  li:nth-child(4), .slides ul  li:nth-child(4) div {
-    -webkit-animation-delay: 18.0s;
+    -webkit-animation-delay: 0s;
     -moz-animation-delay: 18.0s;
 }
 .slides ul li img {
@@ -393,10 +404,10 @@ img.slider-image {
         left:100%;
         opacity:0;
     }
-    100% {
+  /*  100% {
         left:100%;
         opacity:0;
-    }
+    }*/
 }
 @-moz-keyframes anim_titles {
     0% {
@@ -415,10 +426,10 @@ img.slider-image {
         left:100%;
         opacity:0;
     }
-    100% {
+   /* 100% {
         left:100%;
         opacity:0;
-    }
+    }*/
 }
 
 .slides ul li div {
@@ -463,6 +474,7 @@ img.slider-image {
 }
 div#slides {
     height: 100%;
+    background-color: blue;
 }
 div.row.home {
     height: 750px;
@@ -473,12 +485,15 @@ div.row.home {
     padding: 3em;
     text-align: center;
 }
+.row-contact {
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+}
 span.glyphicon.glyphicon-upload {
     display: none;
 }
-.col-xs-6.footer-box {
-    width: 100%;
-}
+
 
 }
 @media (max-width: 768px) {
