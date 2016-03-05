@@ -6,6 +6,12 @@ body {
   background-color: white;
   font-family: 'Lato', sans-serif;
 }
+body.advantages2 { 
+background-image: url('images/example1.jpg');
+
+background-repeat: no-repeat;
+position: fixed;  
+}
 a {
   color: #FFCC00;
   text-decoration: none;
@@ -15,8 +21,15 @@ a:hover {
     text-decoration: none;
 }
 a:hover, a:focus {
-    color: #23527c;
+    /*color: #23527c;*/
+    color: white;
     text-decoration: none;
+}
+a.blue:focus {
+  color: #202A7F;
+}
+a.blue:hover {
+  color: #202A7F;
 }
 p {
   font-size: 1.2em;
@@ -138,8 +151,8 @@ div.row.home {
 .image-banner {
     padding: 30px;
 }
-img.img-responsive.donate {
-    height: 200px;
+.donate {
+    height: 150px;
     margin: auto;
 }
 

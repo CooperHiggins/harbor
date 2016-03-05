@@ -71,11 +71,12 @@ $(document).ready(function () {
 function rotate() {
     $('#next').click();
 }
-console.log('Welcome To Harbor Christian/Leadership Academy'); // eslint-disable-line no-console
+
+console.log('Welcome To Harbor Christian/Leadership Academy'); 
 
 function initialize() {
   var mapProp = {
-    center:new google.maps.LatLng(30.5151747,-97.8882121),
+    center:new google.maps.LatLng(30.5151743,-97.8882123),
     zoom:18,
     mapTypeId:google.maps.MapTypeId.HYBRID
   };
