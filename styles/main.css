@@ -48,24 +48,22 @@ p.align-right {
 tr {
   border: solid black 2px;
   color: white;
-
 }
 td {
-    border: solid black 2px;
-    color: #202A7F;
-    padding: 10px;
-
+  border: solid black 2px;
+  color: #202A7F;
+  padding: 10px;
 }
 ul {
-    list-style: none; /* Remove list bullets */
-    padding: 0;
-    margin: 0;
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
 }
 hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0;
-    border-top: 1px solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid;
 }
 .home-image {
   background-repeat: no-repeat;
@@ -77,13 +75,12 @@ hr {
   color: #000;
   padding: 0.2em 0;
 }
-
 footer {
-    padding: 30px;
-    background-color: #202A7F;
-    border-top: 25px solid #FFCC00;
-    color: white;
-    /* margin-top: 50px; */
+  padding: 30px;
+  background-color: #202A7F;
+  border-top: 25px solid #FFCC00;
+  color: white;
+  /* margin-top: 50px; */
 }
 ul.footer-nav {
     padding-bottom: 30px;
@@ -96,15 +93,12 @@ ul.social-nav {
     text-align: right; 
     font-size: 50px;
 }
-.col-md-4.footer-box.center {
-    text-align: center;
-  }
-.col-xs-4.center {
-    text-align: center;
+.center {
+  text-align: center;
 }
 .row.footer {
-    padding-top: 10px;
-    padding-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 .contact-left {
   background-color: #FFCC00;
@@ -141,10 +135,9 @@ div.row.home {
   background-color: #F2F5F6;
 }
 .row.white {
-    background-color: white;
-    /* padding: 30px; */
+  background-color: white;
+  /* padding: 30px; */
 }
-
 .image-container {
     padding: 30px;
     /* border: solid 1px blue; */
@@ -152,9 +145,14 @@ div.row.home {
 .image-banner {
     padding: 30px;
 }
+.fluid-image {
+    width: 100%;
+    padding: 0px;
+    height: 400px;
+}
 .donate {
-    height: 150px;
-    margin: auto;
+  height: 150px;
+  margin: auto;
 }
 
 .container-fluid {
@@ -180,15 +178,15 @@ div.row.home {
 .cover-box-bottom {
   margin-top: 250px;
 }
-.white {
-  color: white;
+.box-spacing {
+    margin: 20px;
+    padding: 20px;
 }
 .white-background {
   background-color: white;
 }
-.box-spacing {
-    margin: 20px;
-    padding: 20px;
+.white {
+  color: white;
 }
 .blue {
   color: #21287A;
@@ -199,11 +197,7 @@ div.row.home {
 .black {
     color: black;
 }
-.new-header {
-    padding: 20px;
-    font-size: 4.6em;
-    color: #202A7F;
-}
+
 .main-header {
   font-size: 5em;
 }
@@ -375,7 +369,7 @@ position:relative;
 top: 150px;
 }
 
- #buttons {
+#buttons {
 padding:0 0 5px 0;
 float:right;
 }
@@ -469,156 +463,6 @@ img.slider-image {
     width: 100%;
 }
 
-/* keyframes #anim_slides */
-@-webkit-keyframes anim_slides {
-    0% {
-        opacity:1;
-    }
-    6% {
-        opacity:1;
-    }
-    24% {
-        opacity:1;
-    }
-    30% {
-        opacity:0;
-    }
-    100% {
-        opacity:0;
-    }
-}
-@-moz-keyframes anim_slides {
-    0% {
-        opacity:0;
-    }
-    6% {
-        opacity:1;
-    }
-    24% {
-        opacity:1;
-    }
-    30% {
-        opacity:0;
-    }
-    100% {
-        opacity:0;
-    }
-}
-
-.slides ul li {
-    opacity:0;
-    position:absolute;
-    top:0;
-
-    /* css3 animation */
-    -webkit-animation-name: anim_slides;
-    -webkit-animation-duration: 24.0s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: normal;
-    -webkit-animation-delay: 0;
-    -webkit-animation-play-state: running;
-    -webkit-animation-fill-mode: forwards;
-
-    -moz-animation-name: anim_slides;
-    -moz-animation-duration: 24.0s;
-    -moz-animation-timing-function: linear;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-direction: normal;
-    -moz-animation-delay: 0;
-    -moz-animation-play-state: running;
-    -moz-animation-fill-mode: forwards;
-}
-
-
-/* css3 delays */
-.slides ul  li:nth-child(2), .slides ul  li:nth-child(2) div {
-    -webkit-animation-delay: 6.0s;
-    -moz-animation-delay: 6.0s;
-}
-.slides ul  li:nth-child(3), .slides ul  li:nth-child(3) div {
-    -webkit-animation-delay: 12.0s;
-    -moz-animation-delay: 12.0s;
-}
-.slides ul  li:nth-child(4), .slides ul  li:nth-child(4) div {
-    -webkit-animation-delay: 0s;
-    -moz-animation-delay: 18.0s;
-}
-.slides ul li img {
-    display:block;
-}
-
-/* keyframes #anim_titles */
-@-webkit-keyframes anim_titles {
-    0% {
-        left:100%;
-        opacity:0;
-    }
-    5% {
-        left:10%;
-        opacity:1;
-    }
-    20% {
-        left:10%;
-        opacity:1;
-    }
-    25% {
-        left:100%;
-        opacity:0;
-    }
-  /*  100% {
-        left:100%;
-        opacity:0;
-    }*/
-}
-@-moz-keyframes anim_titles {
-    0% {
-        left:100%;
-        opacity:0;
-    }
-    5% {
-        left:10%;
-        opacity:0;
-    }
-    20% {
-        left:10%;
-        opacity:0;
-    }
-    25% {
-        left:100%;
-        opacity:0;
-    }
-   /* 100% {
-        left:100%;
-        opacity:0;
-    }*/
-}
-
-.slides ul li div {
-  color: white;
-  font-size: 26px;    left: 21%;
-  padding: 5px;
-  position: absolute;
-  top: 15%;
-  width: 60%
-  -webkit-animation-name: anim_titles;
-  -webkit-animation-duration: 20.0s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-direction: normal;
-  -webkit-animation-delay: 0;
-  -webkit-animation-play-state: running;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-name: anim_titles;
-  -moz-animation-duration: 24.0s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-direction: normal;
-  -moz-animation-delay: 0;
-  -moz-animation-play-state: running;
-  -moz-animation-fill-mode: forwards;
-}
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -640,19 +484,18 @@ div.row.home {
     text-align: center;
 }
 div.row.home {
-    height: 750px;
-    padding: 3em;
-    text-align: center;
+  height: 750px;
+  padding: 3em;
+  text-align: center;
 }
 .row-contact {
-    margin-right: -15px;
-    margin-left: -15px;
-    width: 100%;
+  margin-right: -15px;
+  margin-left: -15px;
+  width: 100%;
 }
 span.glyphicon.glyphicon-upload {
-    display: none;
+  display: none;
 }
-
 
 }
 @media (max-width: 768px) {
@@ -683,10 +526,11 @@ span.glyphicon.glyphicon-upload {
 }
 
 @media (min-width: 992px) {
+  
   .featurette-heading {
     margin-top: 120px;
   }
-  .col-md-12.main-image {
+  .main-image {
     margin-bottom: 50px;
 }
 
