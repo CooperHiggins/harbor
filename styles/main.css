@@ -3,10 +3,10 @@
 /* Padding below the footer and lighter body text */
 body {
   /*background-color: #F2F5F6;*/
-  
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: cover;
-  background-attachment: fixed; ;
+  background-attachment: fixed;
+  background-position: center;
   font-family: 'Lato', sans-serif;
 }
 
@@ -28,6 +28,9 @@ a.blue:focus {
 }
 a.blue:hover {
   color: #202A7F;
+}
+.black-border {
+border: solid black 2px;
 }
 p {
   font-size: 1.2em;
@@ -103,14 +106,14 @@ ul.social-nav {
     padding-top: 10px;
     padding-bottom: 40px;
 }
-.col-md-6.col-xs-6.contact-left {
+.contact-left {
   background-color: #FFCC00;
   padding: 8%;
   text-align: center;
   font-size: 5em;
 }
-.col-md-6.col-xs-6.contact-right {
-  background-color: #17176E;
+.contact-right {
+  background-color: #21287A;
   padding: 8%;
   text-align: center;
   font-size: 5em;
@@ -155,7 +158,7 @@ div.row.home {
 }
 
 .container-fluid {
-  background-color: #202A7F;
+  background-color: #21287A;
 }
 .container {
   padding-top: 30px;
@@ -184,10 +187,11 @@ div.row.home {
   background-color: white;
 }
 .box-spacing {
-  margin: 20px;
+    margin: 20px;
+    padding: 20px;
 }
 .blue {
-  color: #202A7F;
+  color: #21287A;
 }
 .yellow {
     color: #FFCC00;
@@ -201,7 +205,7 @@ div.row.home {
     color: #202A7F;
 }
 .main-header {
-  font-size: 6em;
+  font-size: 5em;
 }
 .container h2  {
   color: #202A7F;
@@ -342,7 +346,7 @@ CUSTOM SLIDES
 overflow: hidden;
 position: relative;
 width: 100%;
-height: 400px;
+height: 500px;
   
 }
 
@@ -365,11 +369,10 @@ font-family:lato, sans-serif;
 }
 /* Styling for prev and next buttons */
 .btn-bar{
-width:60%;
 margin:0 auto;
 display:block;
 position:relative;
-top:40px;
+top: 150px;
 }
 
  #buttons {
@@ -383,7 +386,7 @@ display:block;
 font-size:50px;
 float:left;
 outline:0;
-margin:0 60px;
+margin:0 35px;
 color:white;
 text-decoration:none;
 display:block;
@@ -409,7 +412,7 @@ font-family:'Lato', Calibri, Arial, sans-serif;
 height: 200px;
 font-size:24px;
 /*color:#202A7F;*/
-color: #FFCC00;
+color: white;
 font-style:italic;
 text-shadow:.5px 0px #b14943;  
 
