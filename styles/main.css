@@ -148,7 +148,7 @@ div.row.home {
 .fluid-image {
   width: 100%;
   padding: 0px;
-    
+  height: 400px;  
 }
 .donate {
   height: 150px;
