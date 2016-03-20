@@ -100,17 +100,37 @@ ul.social-nav {
   padding-top: 10px;
   padding-bottom: 40px;
 }
+
 .contact-left {
   background-color: #FFCC00;
+  height: 300px;
   padding: 8%;
   text-align: center;
   font-size: 5em;
+  
+}
+.contact-left:hover {
+  background-color: #FFCC00;
+  height: 300px;
+  padding: 8%;
+  text-align: center;
+  font-size: 7em;
 }
 .contact-right {
   background-color: #21287A;
+  height: 300px;
   padding: 8%;
   text-align: center;
   font-size: 5em;
+  overflow: hidden;
+}
+.contact-right:hover {
+  background-color: #21287A;
+  height: 300px;
+  padding: 8%;
+  text-align: center;
+  font-size: 7em;
+  overflow: hidden;
 }
 .glyphicon-upload:before {
   content: "\e027";
@@ -120,7 +140,8 @@ i.fa.fa-envelope.blue {
     color: #17176E;
 }
 i.fa.fa-envelope.blue:hover {
-    color: white;
+  color: white;
+  height: 100px;
 }
 div.row.home {
   height: 850px;
