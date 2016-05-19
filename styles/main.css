@@ -45,6 +45,9 @@ p.white {
 p.align-right {
     text-align: right;
 }
+.home {
+  padding: 5%;
+}
 tr {
   border: solid black 2px;
   color: white;
@@ -96,11 +99,17 @@ ul.social-nav {
 .center {
   text-align: center;
 }
+.right {
+text-align: right;
+}
 .row.footer {
   padding-top: 10px;
   padding-bottom: 40px;
 }
 
+.home-images {
+border: solid 3px white;
+}
 .contact-left {
   background-color: #FFCC00;
   height: 300px;
@@ -143,10 +152,8 @@ i.fa.fa-envelope.blue:hover {
   color: white;
   height: 100px;
 }
-div.row.home {
-  height: 850px;
-  text-align: center;
-  padding: 15%;
+.home {
+  padding: 5%;
 }
 .row.grey {
   background-color: #F7F7F7;
