@@ -1,3 +1,4 @@
+console.log('Welcome To Harbor Christian/Leadership Academy'); 
 
 
 $(document).ready(function () {
@@ -72,7 +73,6 @@ function rotate() {
     $('#next').click();
 }
 
-console.log('Welcome To Harbor Christian/Leadership Academy'); 
 
 function initialize() {
   var mapProp = {

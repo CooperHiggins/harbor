@@ -29,6 +29,13 @@ a.blue:focus {
 a.blue:hover {
   color: #202A7F;
 }
+.downloads {
+    color: black;
+}
+.downloads:hover {
+  color:#1a80b6;
+}
+
 .black-border {
 border: solid black 2px;
 }
@@ -45,8 +52,8 @@ p.white {
 p.align-right {
     text-align: right;
 }
-.home {
-  padding: 5%;
+.logo {
+  margin: 25px;
 }
 tr {
   border: solid black 2px;
@@ -68,9 +75,13 @@ hr {
   border: 0;
   border-top: 1px solid;
 }
+
+
 .home-image {
   background-repeat: no-repeat;
   background-size: contain;
+  padding: 5%;
+  margin: 3%;
 }
 .browsehappy {
   margin: 0.2em 0;
@@ -107,9 +118,6 @@ text-align: right;
   padding-bottom: 40px;
 }
 
-.home-images {
-border: solid 3px white;
-}
 .contact-left {
   background-color: #FFCC00;
   height: 300px;
@@ -153,7 +161,7 @@ i.fa.fa-envelope.blue:hover {
   height: 100px;
 }
 .home {
-  padding: 5%;
+  padding: 2%;
 }
 .row.grey {
   background-color: #F7F7F7;
@@ -167,11 +175,10 @@ i.fa.fa-envelope.blue:hover {
   /* padding: 30px; */
 }
 .image-container {
-    padding: 30px;
-    /* border: solid 1px blue; */
+  /* border: solid 1px blue; */
 }
 .image-banner {
-    padding: 30px;
+  
 }
 .fluid-image {
   width: 100%;
@@ -200,15 +207,13 @@ i.fa.fa-envelope.blue:hover {
     background: gainsboro;
 }
 .cover-box {
-  margin: 5px;
   padding: 20px;
 }
 .cover-box-bottom {
   margin-top: 250px;
 }
 .box-spacing {
-    margin: 20px;
-    padding: 20px;
+  padding: 20px;
 }
 .white-background {
   background-color: white;
@@ -225,18 +230,25 @@ i.fa.fa-envelope.blue:hover {
 .black {
     color: black;
 }
+.left {
+  text-align: left;
+
+}
 
 .main-header {
-  font-size: 5em;
+  font-size: 6em;
 }
-.container h2  {
-  color: #202A7F;
+h1 {
+  font-size: 3.5em;
+}
+p {
+  font-size: 1.3em;
 }
 .container h3  {
   color: #202A7F;
 }
 .container h4  {
-  color: #202A7F;
+  color: #FFCC00;
 }
 .container h5  {
   color: #FFCC00;
@@ -422,25 +434,14 @@ color:#202A7F;
 text-shadow:.5px 0px #b14943;  
 }
 
-.quote-phrase, .quote-author {
-font-family:sans-serif;
-font-weight:300;
-display: table-cell;
-vertical-align: middle;
-padding: 5px 20px;
-font-family:'Lato', Calibri, Arial, sans-serif;
-}
-
 .quote-phrase {
-height: 200px;
-font-size:24px;
-/*color:#202A7F;*/
-color: white;
-font-style:italic;
-text-shadow:.5px 0px #b14943;  
-
+  height: 200px;
+  font-size: 3em;
+  color: whitesmoke;
+  font-style: italic;
+  text-shadow: .5px 0px #b14943;
+  padding: 8% 5% 5% 5%;
 }
-
 .quote-marks {
 font-size:30px;
 padding:0 3px 3px;
@@ -460,7 +461,7 @@ display: table;
 width: 100%;
 
 }
-.slider{
+/*.slider{
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -490,37 +491,71 @@ width: 100%;
 img.slider-image {
     height: 500px;
     width: 100%;
-}
+}*/
 
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media (max-width: 400px) {
-  .container {
-    max-width: 90%;
-  }
-  .container h1 {
+@media (max-width: 415px) {
+
+.container h1 {
     color: #202A7F;
-    font-size: 3.8em;
+    font-size: 2.5em;
+}
+.lighthouse {
+  margin: 1%;
+  width: 30%;
+}
+.header {
+  margin: 1%;
+  max-width: 85%;
+}
+.contact {
+  display: none;
+}
+.home-image {
+  display: none;
 }
 .image-container {
-    padding-top: 0px;
-    /* border: solid 1px blue; */
+  padding-top: 0px;
+  /* border: solid 1px blue; */
+}
+.quote-phrase {
+    height: 200px;
+    font-size: 2em;
+    color: whitesmoke;
+    font-style: italic;
+    text-shadow: .5px 0px #b14943;
+    padding: 8% 5% 5% 5%;
 }
 
-div.row.home {
-    height: 750px;
-    text-align: center;
-}
-div.row.home {
-  height: 750px;
-  padding: 3em;
+.row.home {
   text-align: center;
+}
+#donate {
+  display: none;
 }
 .row-contact {
   margin-right: -15px;
   margin-left: -15px;
   width: 100%;
+}
+.contact-left {
+    background-color: #FFCC00;
+    height: 200px;
+    padding: 12%;
+    text-align: center;
+    font-size: 5em;
+}
+.contact-right {
+    background-color: #21287A;
+    height: 200px;
+    padding: 12%;
+    text-align: center;
+    font-size: 5em;
+}
+.footer-box {
+  max-width: 170px;
 }
 span.glyphicon.glyphicon-upload {
   display: none;
