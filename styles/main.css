@@ -75,13 +75,16 @@ hr {
   border: 0;
   border-top: 1px solid;
 }
-
+.home-text {
+  font-size: 1.5em;
+}
 
 .home-image {
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 5%;
-  margin: 3%;
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* padding: 5%; */
+    margin-top: 5%;
+    border: solid #FFCC00 20px;
 }
 .browsehappy {
   margin: 0.2em 0;
@@ -177,8 +180,12 @@ i.fa.fa-envelope.blue:hover {
 .image-container {
   /* border: solid 1px blue; */
 }
-.image-banner {
-  
+.image-center {
+  margin: auto;
+  padding: 2%;
+}
+.banner-text {
+  font-size: 1.8em;
 }
 .fluid-image {
   width: 100%;
